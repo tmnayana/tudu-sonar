@@ -1,0 +1,14 @@
+tudu\service\impl\ConfigurationManagerImplTest.class
+tudu\service\impl\TodoListsManagerImplTest.class
+tudu\service\impl\UserManagerImplTest.class
+tudu\domain\model\comparator\TodoByDueDateComparatorTest.class
+tudu\domain\model\comparator\TodoByDueDateAscComparatorTest.class
+tudu\integration\IntegrationTest.class
+tudu\domain\model\comparator\TodoByAssignedUserComparatorTest.class
+tudu\domain\model\TodoTest.class
+tudu\domain\model\comparator\TodoByAssignedUserAscComparatorTest.class
+tudu\domain\model\comparator\TodoByDescriptionComparatorTest.class
+tudu\domain\model\comparator\TodoByPriorityAscComparatorTest.class
+tudu\service\impl\TodosManagerImplTest.class
+tudu\domain\model\comparator\TodoByDescriptionAscComparatorTest.class
+tudu\security\UserDetailsServiceImplTest.class

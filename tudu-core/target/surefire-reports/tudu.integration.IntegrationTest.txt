@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: tudu.integration.IntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 4.242 sec <<< FAILURE!
+testCreateTodoList(tudu.integration.IntegrationTest)  Time elapsed: 4.145 sec  <<< ERROR!
+org.acegisecurity.DisabledException: User is disabled
+	at org.acegisecurity.providers.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.acegisecurity.providers.ProviderManager.doAuthentication(ProviderManager.java:195)
+	at tudu.integration.IntegrationTest.createAuthenticatedUser(IntegrationTest.java:226)
+	at tudu.integration.IntegrationTest.testCreateTodoList(IntegrationTest.java:106)
+
+testCreateTodo(tudu.integration.IntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+org.acegisecurity.DisabledException: User is disabled
+	at org.acegisecurity.providers.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.acegisecurity.providers.ProviderManager.doAuthentication(ProviderManager.java:195)
+	at tudu.integration.IntegrationTest.createAuthenticatedUser(IntegrationTest.java:226)
+	at tudu.integration.IntegrationTest.testCreateTodo(IntegrationTest.java:147)
+
+testCreateUser(tudu.integration.IntegrationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at tudu.integration.IntegrationTest.testCreateUser(IntegrationTest.java:82)
+
+testDeleteTodoList(tudu.integration.IntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+org.acegisecurity.DisabledException: User is disabled
+	at org.acegisecurity.providers.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.acegisecurity.providers.ProviderManager.doAuthentication(ProviderManager.java:195)
+	at tudu.integration.IntegrationTest.createAuthenticatedUser(IntegrationTest.java:226)
+	at tudu.integration.IntegrationTest.testDeleteTodoList(IntegrationTest.java:126)
+
+testSharedList(tudu.integration.IntegrationTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.acegisecurity.DisabledException: User is disabled
+	at org.acegisecurity.providers.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.acegisecurity.providers.ProviderManager.doAuthentication(ProviderManager.java:195)
+	at tudu.integration.IntegrationTest.createAuthenticatedUser(IntegrationTest.java:226)
+	at tudu.integration.IntegrationTest.testSharedList(IntegrationTest.java:175)
+
+testDeleteTodo(tudu.integration.IntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+org.acegisecurity.DisabledException: User is disabled
+	at org.acegisecurity.providers.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.acegisecurity.providers.ProviderManager.doAuthentication(ProviderManager.java:195)
+	at tudu.integration.IntegrationTest.createAuthenticatedUser(IntegrationTest.java:226)
+	at tudu.integration.IntegrationTest.testDeleteTodo(IntegrationTest.java:161)
+
